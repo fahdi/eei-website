@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand.change-logo {	
 	height: 78px;
-	background-color:#00558c;
+	background-color: rgba(255,255,255,0.10);
 	padding:9px 3px 9px 9px;
 }
 
@@ -216,9 +216,9 @@ h1, h2, h3, h4, h5, h6 {
 a.navbar-brand {
 	background-color: rgba(255,255,255,0.10);
 	display: block;
-	height: 190px;
+	height: 117px;
 	overflow: hidden;
-	padding: 0 12px;
+	padding: 0 5px;
 	color: #fff;
 	margin-left: 0 !important;
 }
@@ -228,7 +228,7 @@ a.navbar-brand {
 }
 
 .navbar-header h1{
-	margin:0;
+	margin: 29px 0;
 }
 
 .navbar-brand h2 {
