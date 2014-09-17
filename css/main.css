@@ -304,12 +304,29 @@ a.navbar-brand {
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #df392e;
+  border: 1px solid #092f87;
   margin-top:10px;
 }
 
 .search i:hover {
-	color:#df392e;
+	color:#092f87;
+}
+
+.btn.btn-login {
+	background-color: #092f87;
+	color: #fff;
+	border:none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 3px;
+	padding: 10px 20px;
+	border-radius:0;
+}
+
+.btn.btn-login:hover{
+	background-color:#00558c;
+	color: #fff;
 }
 
 /*Main Carousel CSS*/
@@ -352,7 +369,7 @@ a.navbar-brand {
 }
 
 .brand-promotion {
-	bottom:92px;
+	bottom: 12px;
 	left: 0;
 	position: absolute;
 	right: 15px;
@@ -373,7 +390,7 @@ a.navbar-brand {
 }
 
 .brand-content:hover {
-	background-color:rgba(128,189,1,1);
+	background-color: rgba(128,189,1,1);
 }
 
 .brand-content img {
@@ -1398,6 +1415,15 @@ h3.timer {
   font-weight: 300;
   margin-top:0;
 }
+
+.readmore-js-toggle, .readmore-js-section {
+  display: block;
+  width: 100%;
+}
+.readmore-js-section {
+  overflow: hidden;
+}
+
 
 .replay-icon{
 	color:#333;

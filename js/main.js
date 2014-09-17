@@ -8,10 +8,21 @@ $(document).ready(function($) {
 		$('.preloader').fadeOut('slow',function(){$(this).remove();});
 	});
 	
-	// Search
-	$('.fa-search').on('click', function() {
+	// Login
+	$('.fa-user').on('click', function() {
 		$('.field-toggle').slideToggle(200);
 	});
+
+
+	/*
+
+	// Read more on media body 
+	$('.media-body p').readmore({
+		speed: 75,
+		maxHeight: 150
+	});
+
+	*/
 
 	//Scroll Menu
 	function menuToggle()
@@ -263,8 +274,8 @@ $(document).ready(function($) {
 
 		map = new GMaps({
 			el: '#gmap',
-			lat: 45.995447,
-			lng: -73.5697587,
+			lat: 25.1837,
+			lng: 55.2666,
 			scrollwheel:false,
 			zoom: 10,
 			zoomControl : true,
@@ -277,8 +288,8 @@ $(document).ready(function($) {
 
 		var image = '';
 		map.addMarker({
-			lat: 45.995447,
-			lng: -73.5697587,
+			lat: 25.1837,
+			lng: 55.2666,
 			icon: image,
 			animation: google.maps.Animation.DROP,
 			verticalAlign: 'bottom',
