@@ -1167,6 +1167,22 @@ h3.timer {
 	border-color: #092f87;
 }
 
+.contact-content label{
+	color: #222;
+}
+
+.contact-content label.radio{
+	padding-left: 30px;
+	color: #555;
+	font-size: 80%;
+}
+
+.contact-content .help-block{
+
+	color: #bbb;
+	font-size:70%;
+}
+
 .contact-content textarea.form-control {
   min-height: 90px;
   resize: none;
