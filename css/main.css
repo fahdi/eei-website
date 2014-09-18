@@ -117,7 +117,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .parallax-content h1 {
-	text-transform: uppercase;
 	line-height: 48px;
 }
 
@@ -453,7 +452,7 @@ a.navbar-brand {
 ===========================*/
 
 #promo-one  {
-	background-image: url("../images/promotions/promo-one-bg.jpg");
+	background-image: url("../images/promotions/e.jpg");
 }
 
 #promo-one h2 {
