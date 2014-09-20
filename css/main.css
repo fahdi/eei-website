@@ -1123,10 +1123,18 @@ h3.timer {
 }
 
 /*=========================
-=======Contact us CSS======
+=======Contact us and Sign Up CSS======
 ===========================*/
 #contact-us {
 	overflow:hidden;
+}
+
+.contact-form{
+	color: #222;
+}
+.black{
+	color: #222;
+	margin: 25px auto;
 }
 
 #contact-us .section-title {

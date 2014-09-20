@@ -17,8 +17,10 @@ module.exports = function(grunt) {
             js: {
                 src: [
 					'js/jquery.js',
-					'js/bootstrap.js'
-                   
+					'js/bootstrap.js',
+                    'js/jquery.prettyPhoto.js',
+                    'js/gmaps.js',
+                   // 'js/jquery.parallax.js'
                 ],
                 dest: 'js/combined.js'
             }
