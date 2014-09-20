@@ -274,10 +274,10 @@ $(document).ready(function($) {
 
 		map = new GMaps({
 			el: '#gmap',
-			lat: 25.1837,
-			lng: 55.2666,
+			lat: 25.0469578,
+			lng: 55.2082221,
 			scrollwheel:false,
-			zoom: 10,
+			zoom: 14,
 			zoomControl : true,
 			panControl : false,
 			streetViewControl : false,
@@ -288,13 +288,17 @@ $(document).ready(function($) {
 
 		var image = '';
 		map.addMarker({
-			lat: 25.1837,
-			lng: 55.2666,
+			title: 'Click for complete Address',
+			lat: 25.0492202,
+			lng: 55.2161219,
 			icon: image,
 			animation: google.maps.Animation.DROP,
 			verticalAlign: 'bottom',
 			horizontalAlign: 'center',
 			backgroundColor: '#d3cfcf',
+			infoWindow: {
+			  content: '<strong><p>Archen Offices <br/> Office A-105<br/>Prime Business Centre<br/>Jumeirah Village Circle<br/>Dubai</p></strong>'
+			}
 		});
 
 
