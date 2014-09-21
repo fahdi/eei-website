@@ -27,6 +27,12 @@ module.exports = function(grunt) {
 
             js2: {
                 src: [
+                    'js/jquery.parallax.js',
+                    'js/jquery.isotope.js',
+                    'js/jquery.appear.js',
+                    'js/jquery.inview.js',
+                    'js/wow.js',
+                    'js/jquery.countTo.js',
                     'js/smooth-scroll.js',
                     'js/canvas.js',
                     'js/preloader.js',
