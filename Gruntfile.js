@@ -14,15 +14,26 @@ module.exports = function(grunt) {
                 ],
                 dest: 'css/combined.css'
             },
-            js: {
+            
+             js1: {
                 src: [
-					'js/jquery.js',
-					'js/bootstrap.js',
+                    'js/jquery.js',
+                    'js/bootstrap.js',
                     'js/jquery.prettyPhoto.js',
-                    'js/gmaps.js',
-                   // 'js/jquery.parallax.js'
+                    'js/gmaps.js'
                 ],
                 dest: 'js/combined.js'
+            },
+
+            js2: {
+                src: [
+                    'js/smooth-scroll.js',
+                    'js/canvas.js',
+                    'js/preloader.js',
+                    'js/main.js'
+
+                ],
+                dest: 'js/combined_appendix.js'
             }
         },
         cssmin: {
