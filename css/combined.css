@@ -3524,7 +3524,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand .logo-container {
-	padding: 15px 0 0 0;
+	padding: 11px 0 11px 2px;
 	margin: 0 auto;
 	width: 133px;
 }
@@ -3765,6 +3765,11 @@ a.navbar-brand {
 
 .carousel-caption p {
 	max-width: 780px;
+}
+
+.carousel-arrows{
+	display: none;
+	visibility: hidden;
 }
 
 .brand-promotion {
