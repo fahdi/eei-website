@@ -3524,9 +3524,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand .logo-container {
-	padding: 11px 0 11px 2px;
-	margin: 0 auto;
-	width: 133px;
+padding: 0 0 11px 2px;
+margin: 0 auto;
+width: 133px;
 }
 
 .navbar-brand .logo-container object embed{
@@ -3567,20 +3567,20 @@ h1, h2, h3, h4, h5, h6 {
 /*Topbar*/
 .top-bar {
 	position:absolute;
-	right:15px;
+	right:31px;
 	top:30px;
 	z-index: 10;
 }
 
 .top-bar span {
-	margin-left: 45px;
+	margin-left: 10px;
 	color:#fff;
 }
 
 .top-bar span i {
 	color: #002f86;
 	margin-right: 10px;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 /*Navigation CSS*/
@@ -3589,13 +3589,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a.navbar-brand {
-	background-color: rgba(255,255,255,0.10);
 	display: block;
-	height: 117px;
+	height: 153px;
 	overflow: hidden;
-	padding: 0 5px;
+	padding: 0 15px 0 5px;
+	margin-top: -1!important;
 	color: #fff;
-	margin-left: 0 !important;
+	margin-left: 0!important;
 }
 
 .navbar-brand h1 {
@@ -3616,26 +3616,35 @@ a.navbar-brand {
 }
 
 #navigation .navbar-right {
-	margin-top: 76px;
-	margin-right: 35px;
+	margin-top: 60px;
+	margin-right: -6px;
 }
 
 #navigation .navbar-right li a {
-	color:#fff;
+	color:#000;
 	font-size:14px;
 	height: 100%;
 	text-transform:uppercase;
 	font-family: 'allerregular';
 	padding:10px 17px;
+	 
+
 }
 
 #navigation .navbar-fixed-top {
 	background-color: #fff;
-	border-bottom: 3px solid #092f87;
+	border-bottom: 4px solid #092f87;
 	-webkit-transition: 300ms;
 	-moz-transition: 300ms;
 	-o-transition: 300ms;
 	transition: 500ms;
+	height: 100px;
+}
+
+#navigation .navbar-fixed-top object embed {
+	width: 115px;
+	height: 67px;
+	margin: 0;
 }
 
 #navigation .navbar-fixed-top .navbar-right{
@@ -3645,13 +3654,21 @@ a.navbar-brand {
 #navigation .navbar-fixed-top .navbar-right li a{
 	line-height: 48px;
 	padding: 15px 17px;
+	border-bottom-color: #80bd01;
+	border-top-width: 4px;
+	margin-right:2px;
 }
 
 #navigation .navbar-fixed-top .navbar-right li a.active, 
 #navigation .navbar-fixed-top .navbar-right li a:hover, 
 #navigation .navbar-fixed-top .navbar-right li a:focus, 
 #navigation .navbar-fixed-top .navbar-right li.active a{
-	background-color:#092f87;
+	background-color:#fff;
+	color:#000;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #80bd01;
+	margin-right:2px;
 }
 
 #navigation .navbar-right li a.active, 
@@ -5142,18 +5159,20 @@ h3.timer {
 		display: none;
 	}
 	.main-nav {
-		background-color: #0072bc;
+		background-color: #fff;
+		color: #000;
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 	}
 	a.navbar-brand {
-		background-color:#002f86;
+		background-color:#fff;
+		color: #000;
 		height: 65px;
 		padding:15px 0 0 15px;
 	}
-	a.navbar-brand img {
+	a.navbar-brand embed {
 		margin-top: -32px;
 		width: 50%;
 	}
@@ -5176,7 +5195,7 @@ h3.timer {
 	#navigation .navbar-right li a:hover, 
 	#navigation .navbar-right li a:focus, 
 	#navigation .navbar-right li.active a {
-		background-color:#002f86;
+		background-color:#fff;
 		border-bottom-color: 5px;
 		border-bottom-color: green;
 	}
