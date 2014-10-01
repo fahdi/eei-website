@@ -3428,7 +3428,7 @@ a:focus,
 a:hover {
 	text-decoration: none;
 	outline: none;
-	color:#092f87;
+	color:#002f86;
 }
 
 h1 {
@@ -3469,7 +3469,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title h3 {
-	color: #092f87;
+	color: #002f86;
 	line-height: 15px;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -3477,7 +3477,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-border {
-	background-color:#092f87;
+	background-color:#002f86;
 	height: 1px;
 	width:184px;
 	margin-bottom: 30px;
@@ -3561,7 +3561,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar span i {
-	color: #092f87;
+	color: #002f86;
 	margin-right: 10px;
 	font-size: 18px;
 }
@@ -3641,7 +3641,7 @@ a.navbar-brand {
 #navigation .navbar-right li a:hover, 
 #navigation .navbar-right li a:focus, 
 #navigation .navbar-right li.active a  {
-	background-color:#092f87;
+	background-color:#002f86;
 }
 
 .search{
@@ -3686,16 +3686,16 @@ a.navbar-brand {
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #092f87;
+  border: 1px solid #002f86;
   margin-top:10px;
 }
 
 .search i:hover {
-	color:#092f87;
+	color:#002f86;
 }
 
 .btn.btn-login {
-	background-color: #092f87;
+	background-color: #002f86;
 	color: #fff;
 	border:none;
 	display: inline-block;
@@ -3808,7 +3808,7 @@ a.navbar-brand {
 
 .service-icon {
 	display:inline-block;	
-	color: #092f87;
+	color: #002f86;
 	font-size:60px;
 	line-height: 75px;	
 	-webkit-transition: all 0.3s ease-in-out;
@@ -3889,7 +3889,7 @@ a.navbar-brand {
 .filter li a:focus, 
 .filter li a.active {
 	color:#fff;
-	background-color:#092f87
+	background-color:#002f86
 }
 
 .portfolio-items li {
@@ -4129,7 +4129,7 @@ a.navbar-brand {
 .team-carousel-right {
 	position: absolute;
 	bottom:-90px;
-	color: #092f87;
+	color: #002f86;
 	background-color:#f7f7f7;
 	height:55px;
 	width: 55px;
@@ -4158,7 +4158,7 @@ a.navbar-brand {
 
 .team-carousel-left:hover, 
 .team-carousel-right:hover {
-	background-color: #092f87;
+	background-color: #002f86;
 	color: #fff;
 } 
 
@@ -4246,7 +4246,7 @@ a.navbar-brand {
 }
 
 .btn.btn-primary {
-	background-color: #092f87;
+	background-color: #002f86;
 	color: #fff;
 	border:none;
 	display: inline-block;
@@ -4304,7 +4304,7 @@ a.navbar-brand {
 
 #fun-fact {
 	background-image: url("../images/promotions/promo-three-bg.jpg");
-	background-color: #092f87;		
+	background-color: #002f86;		
 }
 
 #fun-fact .parallax-content {
@@ -4370,7 +4370,7 @@ h3.timer {
 
 .client-left:hover, 
 .client-right:hover {
-	color: #092f87;
+	color: #002f86;
 }
 
 .client-left {
@@ -4388,7 +4388,7 @@ h3.timer {
 
 #news-letter {
 	background-image: url("../images/promotions/news-letter-bg.jpg");	
-	background-color: #092f87;
+	background-color: #002f86;
 	overflow:hidden;
 }
 
@@ -4474,7 +4474,7 @@ h3.timer {
 }
 
 .single-table.featured-table h2  { 
-	background-color: #092f87;
+	background-color: #002f86;
 	color: #fff;
 }
 
@@ -4485,7 +4485,7 @@ h3.timer {
 
 .single-table.featured-table .btn-signup, 
 .single-table:hover .btn-signup:hover{
-	background-color: #092f87;
+	background-color: #002f86;
 	color: #fff;
 }
 
@@ -4530,7 +4530,7 @@ h3.timer {
 }
 
 .contact-content i {
-	color: #092f87;
+	color: #002f86;
 	font-size: 22px;
 	margin-right: 5px;
 }
@@ -4540,7 +4540,7 @@ h3.timer {
 }
 
 .business-time span {
-	color: #092f87;
+	color: #002f86;
 }
 
 .contact-content .form-control {
@@ -4555,7 +4555,7 @@ h3.timer {
 }
 
 .contact-content .form-control:focus {
-	border-color: #092f87;
+	border-color: #002f86;
 }
 
 .contact-content label{
@@ -4588,7 +4588,7 @@ h3.timer {
 }
 
 #contact-form .btn.btn-default {
-	background-color: #092f87;
+	background-color: #002f86;
 	color: #fff;
 	margin-top: 0;
 	padding: 13px 0 8px;
@@ -4610,7 +4610,7 @@ h3.timer {
 }
 
 #footer {
-	background-color:#092f87;
+	background-color:#002f86;
 	color:#fff;
 	padding-top:30px;
 	padding-bottom:20px;
@@ -4633,7 +4633,7 @@ h3.timer {
 #footer a.to-top:before {
 	content: "";
 	position: absolute;
-	border-color: transparent transparent #092f87;
+	border-color: transparent transparent #002f86;
 	border-style: solid;
 	border-width: 28px 60px;
 	left:-25px;
@@ -5126,7 +5126,7 @@ h3.timer {
 		width: 100%;
 	}
 	a.navbar-brand {
-		background-color:#00558c;
+		background-color:#002f86;
 		height: 65px;
 		padding:15px 0 0 15px;
 	}
@@ -5153,7 +5153,7 @@ h3.timer {
 	#navigation .navbar-right li a:hover, 
 	#navigation .navbar-right li a:focus, 
 	#navigation .navbar-right li.active a {
-		background-color:#00558c;
+		background-color:#002f86;
 	}
 	/*Home Carousel*/
 	#home-carousel .item {

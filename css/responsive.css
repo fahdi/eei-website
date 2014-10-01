@@ -145,7 +145,7 @@
 		width: 100%;
 	}
 	a.navbar-brand {
-		background-color:#00558c;
+		background-color:#002f86;
 		height: 65px;
 		padding:15px 0 0 15px;
 	}
@@ -172,7 +172,7 @@
 	#navigation .navbar-right li a:hover, 
 	#navigation .navbar-right li a:focus, 
 	#navigation .navbar-right li.active a {
-		background-color:#00558c;
+		background-color:#002f86;
 	}
 	/*Home Carousel*/
 	#home-carousel .item {
