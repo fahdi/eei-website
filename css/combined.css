@@ -5159,7 +5159,7 @@ h3.timer {
 		display: none;
 	}
 	.main-nav {
-		background-color: #fff;
+		background-color: transparent;
 		color: #000;
 		position: fixed;
 		top: 0;
@@ -5167,14 +5167,14 @@ h3.timer {
 		width: 100%;
 	}
 	a.navbar-brand {
-		background-color:#fff;
+		background-color:transparent;
 		color: #000;
 		height: 65px;
 		padding:15px 0 0 15px;
 	}
 	a.navbar-brand embed {
 		margin-top: -32px;
-		width: 50%;
+		width: 20px;
 	}
 	.navbar-brand h1 {
 		margin-left:7px;
