@@ -13,6 +13,17 @@ $(document).ready(function($) {
 		$('.field-toggle').slideToggle(200);
 	});
 
+		// Login
+	$('.login').on('click', function() {
+		$('.field-toggle').slideToggle(200);
+	});
+
+	//
+
+	$('.signup-button').on('click', function() {
+		$('.field-toggle').slideToggle(10);
+	});
+
 
 	/*
 
