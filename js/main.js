@@ -7,6 +7,8 @@ $(document).ready(function($) {
 	$(window).load(function(){
 		$('.preloader').fadeOut('slow',function(){$(this).remove();});
 	});
+
+
 	
 	// Login
 	$('.fa-user').on('click', function() {
@@ -45,9 +47,43 @@ $(document).ready(function($) {
 				if( $(window).scrollTop()>405 ){
 					$('.navbar').addClass('navbar-fixed-top animated fadeIn');
 					$('.navbar').removeClass('main-nav');
+					/*
+					if($('#logoeei').src!='images/logoeei.svg'){
+						var parent = $('#logoeei').parent();
+						var newElement = "<embed id='logoeei' src='images/logoeei.svg'>";
+
+						$('#logoeei').remove();
+						parent.append(newElement);
+						
+						console.log("Changing room");
+					}
+
+					// $('#logoeei').attr('src', 'images/logoeei.svg');
+					
+					*/
+			
+
 				} else {
 					$('.navbar').removeClass('navbar-fixed-top');
 					$('.navbar').addClass('main-nav');
+					/*
+					if($('#logoeei').src!='images/eeilogomain.svg'){
+						var parent = $('#logoeei').parent();
+						var newElement = "<embed id='logoeei' src='images/eeilogomain.svg'>";
+
+						$('#logoeei').remove();
+						parent.append(newElement);
+
+						console.log("Ghar aya mera pardesi");
+
+					}
+
+					//$('#logoeei').attr('src', 'images/eeilogomain.svg');
+
+					*/
+
+					
+					
 				}
 			});
 		}else{

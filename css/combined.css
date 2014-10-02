@@ -3621,7 +3621,7 @@ a.navbar-brand {
 }
 
 #navigation .navbar-right li a {
-	color:#000;
+	color:#fff;
 	font-size:14px;
 	height: 100%;
 	text-transform:uppercase;
@@ -3631,6 +3631,9 @@ a.navbar-brand {
 
 }
 
+#navigation .navbar-fixed-top li a {
+	color:#000;
+}
 #navigation .navbar-fixed-top {
 	background-color: #fff;
 	border-bottom: 4px solid #092f87;
@@ -3638,13 +3641,13 @@ a.navbar-brand {
 	-moz-transition: 300ms;
 	-o-transition: 300ms;
 	transition: 500ms;
-	height: 100px;
+	height: 86px
 }
 
 #navigation .navbar-fixed-top object embed {
-	width: 115px;
-	height: 67px;
-	margin: 0;
+	width: 122px;
+	height: 78px;
+	margin: -10px;
 }
 
 #navigation .navbar-fixed-top .navbar-right{
