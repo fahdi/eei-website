@@ -3391,6 +3391,8 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 =======Typography=========
 ==========================*/
  
+* { -webkit-print-color-adjust: exact; }
+ 
 body {
 	font-family: 'aller_lightregular';  
 	font-size: 16px;
@@ -3494,6 +3496,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:18px;  
 }
 
+
+.parallax-section h3{
+	color: ##002f86;
+	text-transform: uppercase;
+
+}
+
 .parallax-content {	
 	padding-bottom:70px;
 	padding-top:110px;
@@ -3524,7 +3533,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand .logo-container {
-padding: 0 0 11px 2px;
+padding: 27px 0 11px 2px;
 margin: 0 auto;
 width: 133px;
 }
@@ -3644,6 +3653,10 @@ a.navbar-brand {
 	height: 86px
 }
 
+#navigation .navbar-fixed-top .logo-container {
+	padding: 17px 0 11px 2px;
+}
+
 #navigation .navbar-fixed-top object embed {
 	width: 122px;
 	height: 78px;
@@ -3761,7 +3774,7 @@ a.navbar-brand {
 .carousel-caption {
 	left:15px;
 	right:15px;
-	top:300px;
+	top:240px;
 	font-size:15px;
 	text-align:left;
 	color:#fff;
@@ -3793,7 +3806,7 @@ a.navbar-brand {
 }
 
 .brand-promotion {
-	bottom: 12px;
+	bottom: 250px;
 	left: 0;
 	position: absolute;
 	right: 15px;
