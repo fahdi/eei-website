@@ -10,9 +10,7 @@
 /*========================
 =======Typography=========
 ==========================*/
- 
-* { -webkit-print-color-adjust: exact; }
- 
+
 body {
 	font-family: 'aller_lightregular';  
 	font-size: 16px;
@@ -250,7 +248,7 @@ a.navbar-brand {
 }
 
 #navigation .navbar-right li a {
-	color:#fff;
+	color:#000;
 	font-size:14px;
 	height: 100%;
 	text-transform:uppercase;
@@ -426,7 +424,7 @@ a.navbar-brand {
 }
 
 .brand-promotion {
-	bottom: 250px;
+	bottom: 154px;
 	left: 0;
 	position: absolute;
 	right: 15px;

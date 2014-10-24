@@ -48,13 +48,7 @@ module.exports = function(grunt) {
                 dest: 'css/combined.min.css'
             }
         },
-       /* uglify: {
-            js: {
-                files: {
-                    'js/combined.js': ['js/combined.min.js']
-                }
-            }
-        },*/
+        // uglify
         watch: {
 			files: ['css/main.css','css/responsive.css', 'js/main.js'],
 			tasks: ['concat', 'cssmin']
