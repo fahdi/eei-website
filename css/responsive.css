@@ -121,6 +121,9 @@
 		font-size: 14px;
 		margin: 0 auto;
 	}
+	.navbar-right li a{
+		color: #000;
+	}
 	h1 {
 		font-size: 20px;
 	}
@@ -421,6 +424,14 @@
 	}
 	
 	
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.navbar-right li a{
+		color: #000;
+	}
 }
 
 

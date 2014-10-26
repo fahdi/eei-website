@@ -3496,7 +3496,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .parallax-section h3{
-	color: ##002f86;
+	color: #002f86;
 	text-transform: uppercase;
 
 }
@@ -3628,7 +3628,7 @@ a.navbar-brand {
 }
 
 #navigation .navbar-right li a {
-	color:#000;
+	color:#fff;
 	font-size:14px;
 	height: 100%;
 	text-transform:uppercase;
@@ -5156,6 +5156,9 @@ h3.timer {
 		font-size: 14px;
 		margin: 0 auto;
 	}
+	.navbar-right li a{
+		color: #000;
+	}
 	h1 {
 		font-size: 20px;
 	}
@@ -5456,6 +5459,14 @@ h3.timer {
 	}
 	
 	
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.navbar-right li a{
+		color: #000;
+	}
 }
 
 
