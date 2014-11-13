@@ -3398,6 +3398,7 @@ body {
 	background-color: #fff;
 }
 
+<<<<<<< HEAD
 .signup-page{
 	background: url(../images/bgsignup.jpg);
 }
@@ -3413,6 +3414,8 @@ body {
 	padding-top: 200px;	
 }
 
+=======
+>>>>>>> cf04289f60dffcd47fc580a8f2bca02114cc6da7
 ul {
 	list-style: none;
 	margin:0;
@@ -5475,6 +5478,7 @@ h3.timer {
 	
 	
 }
+<<<<<<< HEAD
 @media screen and (max-width: 320px)  {
 	.navbar-right li a{
 		color: #000;
@@ -5482,6 +5486,12 @@ h3.timer {
 }
 
 @media screen and (max-width: 480px)  {
+=======
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+>>>>>>> cf04289f60dffcd47fc580a8f2bca02114cc6da7
 	.navbar-right li a{
 		color: #000;
 	}
